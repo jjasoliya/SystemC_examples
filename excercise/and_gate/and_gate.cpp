@@ -1,8 +1,11 @@
+// and_gate.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
 // test bench implementation in SystemC 
 
 #include "and_gate.h"
 
-int sc_main(int, char *[]) {
+
+int sc_main(int, char* []) {
 	//signals
 	sc_signal<sc_uint<1>> a_tb, b_tb;
 	sc_signal<sc_uint<1>> out_tb;
@@ -21,7 +24,7 @@ int sc_main(int, char *[]) {
 	sc_start(0, SC_NS); // start sims
 
 
-     // stimulus definition
+	 // stimulus definition
 	for (int i = 0; i < 50; i++) {
 		a_tb.write(1);
 		b_tb.write(0);

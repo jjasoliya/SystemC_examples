@@ -1,1 +1,1 @@
-my_SystemC
+repository for system C practical examples.

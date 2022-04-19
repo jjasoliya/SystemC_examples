@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jayminj\source\repos\my_SystemC\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalOptions>/vmg %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\jayminj\source\repos\my_SystemC\msvc10\SystemC\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SystemC.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
